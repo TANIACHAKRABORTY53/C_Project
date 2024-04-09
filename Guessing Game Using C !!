@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main(void) {
+  int secret_number;
+  int get_number;
+  int i;
+  secret_number = 5;
+  int get_limit = 3;
+  for(i=0; i<=get_limit; i++){
+    printf("Enter a number: ") ;
+    scanf("%d", &get_number);
+    if(get_number == secret_number){
+      printf("You won!");
+      break;
+    }
+  }
+  if(get_number != secret_number){
+    printf("You lost!");
+  }
+  return 0;
+}
