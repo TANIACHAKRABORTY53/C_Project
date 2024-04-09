@@ -1,4 +1,4 @@
-This is a 5 min project called Guessing game using C
+This is a 5 min project called Guessing game using C. It is not the part of lsb_imamge_steganography
 
 #include <stdio.h>
 int main(void) {
