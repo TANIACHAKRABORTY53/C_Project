@@ -1,5 +1,6 @@
-#include <stdio.h>
+This is a 5 min project called Guessing game using C
 
+#include <stdio.h>
 int main(void) {
   int secret_number;
   int get_number;
